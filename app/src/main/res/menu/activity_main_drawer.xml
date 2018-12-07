@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_menu_tech"
+            android:title="科技树" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_holy"
+            android:title="奇观大览" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_menu_wonder"
+            android:title="奇迹分析" />
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/ic_menu_policy"
+            android:title="政策" />
+    </group>
+
+    <item android:title="其他">
+        <menu>
+            <item
+                android:id="@+id/nav_manage"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="工具" />
+            <!--
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+            -->
+        </menu>
+    </item>
+
+</menu>

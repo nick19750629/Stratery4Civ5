@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">文明5攻略</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">设置</string>
+    <string name="action_reset">数据重置</string>
+</resources>
